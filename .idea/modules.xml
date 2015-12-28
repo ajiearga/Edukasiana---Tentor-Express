@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TentorExpress.iml" filepath="$PROJECT_DIR$/TentorExpress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Edukasiana---Tentor-Express.iml" filepath="$PROJECT_DIR$/Edukasiana---Tentor-Express.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
