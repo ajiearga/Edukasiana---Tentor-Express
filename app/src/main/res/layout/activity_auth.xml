@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
@@ -89,10 +90,10 @@
         android:layout_width="120dp"
         android:layout_height="48dp"
         android:background="@drawable/selector_button_orange"
-        android:gravity="center"
-        android:orientation="horizontal"
         android:clickable="true"
-        android:onClick=""
+        android:gravity="center"
+        android:onClick="onClickLogIn"
+        android:orientation="horizontal"
         android:padding="8dp">
 
         <TextView
@@ -131,6 +132,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="onClickSignUp"
             android:text="Daftar Sekarang"
             android:textColor="@color/medium_orange"
             android:textStyle="bold" />

@@ -3,6 +3,7 @@ package id.tentorexpress.edukasiana.tentorexpress.ui.activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import id.tentorexpress.edukasiana.tentorexpress.R;
 import id.tentorexpress.edukasiana.tentorexpress.base.BaseActivity;
@@ -21,5 +22,15 @@ public class AuthActivity extends BaseActivity {
     public static void startThisActivity(Context context) {
         context.startActivity(new Intent(context, AuthActivity.class));
     }
+
+    public void onClickSignUp(View view)
+    {
+        SignUpActivity.startThisActivity(this);
+    }
+    public void onClickLogIn(View view)
+    {
+        HomeSideBarActivity.startThisActivity(this);
+    }
+
 }
 

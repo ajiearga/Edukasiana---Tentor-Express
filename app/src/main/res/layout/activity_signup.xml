@@ -54,8 +54,7 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Email"
-                    android:inputType="textEmailAddress"
+                    android:hint="Nama"
                     android:singleLine="true"
                     android:textColor="@color/black"
                     android:textColorHighlight="@color/medium_orange" />
@@ -206,6 +205,7 @@
                     android:textColor="@color/black"
                     android:textColorHighlight="@color/medium_orange" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -231,6 +231,7 @@
                     android:textColor="@color/black"
                     android:textColorHighlight="@color/medium_orange" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -256,16 +257,73 @@
                     android:textColor="@color/black"
                     android:textColorHighlight="@color/medium_orange" />
             </LinearLayout>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:text="*Aplikasi khusus pengguna 13 tahun ke atas"/>
+                android:text="*Aplikasi khusus pengguna 13 tahun ke atas" />
+
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:text="*Aplikasi khusus pengguna 13 tahun ke atas"/>
+                android:gravity="center"
+                android:text="*Untuk jenjang SD, TK, dan PAUD diharapkan agar orang tua yang melakukan pemesanan." />
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="48dp"
+                android:background="@drawable/selector_button_orange"
+                android:clickable="true"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:onClick=""
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DAFTAR"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <com.joanzapata.iconify.widget.IconTextView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="{fa-angle-right}"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom|center"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sudah memiliki akun ? "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Masuk Sekarang"
+                    android:clickable="true"
+                    android:onClick="onCLickLogIn"
+                    android:textColor="@color/medium_orange"
+                    android:textStyle="bold" />
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
