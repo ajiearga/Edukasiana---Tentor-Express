@@ -38,4 +38,21 @@
         <item>2021</item>
         <item>2022</item>
     </string-array>
+
+    <string-array name="city_list">
+        <item>Bandung</item>
+        <item>Jakarta</item>
+        <item>Bogor</item>
+        <item>Semarang</item>
+        <item>Surabya</item>
+    </string-array>
+
+    <string-array name="price_list">
+        <item>Rp 50.000,00</item>
+        <item>Rp 100.000,00</item>
+        <item>Rp 150.000,00</item>
+        <item>Rp 200.000,00</item>
+        <item>Rp 250.000,00</item>
+        <item>Rp 300.000,00</item>
+    </string-array>
 </resources>

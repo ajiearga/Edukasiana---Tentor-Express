@@ -5,9 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.joanzapata.iconify.IconDrawable;
-import com.joanzapata.iconify.fonts.FontAwesomeIcons;
-
 import id.tentorexpress.edukasiana.tentorexpress.R;
 import id.tentorexpress.edukasiana.tentorexpress.base.BaseActivity;
 
@@ -21,9 +18,6 @@ public class SignUpActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
         toolbar_title.setText("Pendaftaran");
-        getSupportActionBar().setHomeAsUpIndicator(new IconDrawable(this, FontAwesomeIcons.fa_angle_left)
-                .colorRes(R.color.white)
-                .actionBarSize());
     }
 
     public static void startThisActivity(Context context) {
@@ -32,5 +26,9 @@ public class SignUpActivity extends BaseActivity {
 
     public void onCLickLogIn(View view) {
         AuthActivity.startThisActivity(this);
+    }
+
+    public void onClickSignIn(View view) {
+        HomeSideBarActivity.startThisActivity(this);
     }
 }

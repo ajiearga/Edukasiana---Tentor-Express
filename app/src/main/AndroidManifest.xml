@@ -39,5 +39,12 @@
         <activity
             android:name=".ui.activity.HomeSideBarActivity"
             android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ui.activity.ChooseOrderActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ui.activity.ChooseTentorActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"></activity>
     </application>
 </manifest>

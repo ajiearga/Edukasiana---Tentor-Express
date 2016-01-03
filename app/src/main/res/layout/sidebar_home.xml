@@ -15,7 +15,13 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <include layout="@layout/toolbar" />
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include layout="@layout/toolbar" />
+
+            </android.support.design.widget.AppBarLayout>
 
             <FrameLayout
                 android:id="@+id/flContent"
@@ -318,7 +324,6 @@
                         android:layout_height="wrap_content"
                         android:background="?attr/selectableItemBackground"
                         android:clickable="true"
-                        android:onClick="onClickExit"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:padding="16dp">
